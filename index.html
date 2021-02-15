@@ -1,231 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tobia Gasparoni - Profile Website</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-</head>
-<body class="container">
-    <header id="banner">
-        <h1>Tobia Gasparoni</h1>
-        <img src="img/pp.jpg" id="profile-pic" class="rounded-circle" alt="Tobia Gasparoni">
-    </header>
-    <nav class="nav justify-content-center">
-        <a class="nav-link" href="#welcome">WELCOME</a>
-        <a class="nav-link" href="#facts">FACTS</a>
-        <a class="nav-link" href="#interests">INTERESTS</a>
-        <a class="nav-link" href="#projects">PROYECTS</a>
-        <a class="nav-link" href="#form">CONTACT ME</a>
-    </nav>
-    <main>
-        <div id="quote" class="card">
-            <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                    <p>"Everybody's changing and I don't feel the same"</p>
-                    <footer class="blockquote-footer">Keane in <cite title="Source Title">Everybody's Changing</cite></footer>
-                </blockquote>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tobia Gasparoni - Profile Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <!-- David Manosalva: Por buenas practicas los script deberian colocarse al final del contenido en el body -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap"
+            rel="stylesheet"
+        />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body class="container">
+        <header id="banner">
+            <h1>Tobia Gasparoni</h1>
+            <img
+                src="img/pp.jpg"
+                id="profile-pic"
+                class="rounded-circle"
+                alt="Tobia Gasparoni"
+            />
+        </header>
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="#welcome">WELCOME</a>
+            <a class="nav-link" href="#facts">FACTS</a>
+            <a class="nav-link" href="#interests">INTERESTS</a>
+            <a class="nav-link" href="#projects">PROYECTS</a>
+            <a class="nav-link" href="#form">CONTACT ME</a>
+        </nav>
+        <main>
+            <div id="quote" class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Everybody's changing and I don't feel the same"</p>
+                        <footer class="blockquote-footer">
+                            Keane in
+                            <cite title="Source Title"
+                                >Everybody's Changing</cite
+                            >
+                        </footer>
+                    </blockquote>
+                </div>
             </div>
-        </div>
-        <div id="welcome" class="card text-center">
-            <div class="card-body">
-                <h2 class="card-title">Hi!</h2>
-                <p class="card-text">Let me introduce myself: I'm Tobia Raffaele Gasparoni Berdugo, a mix between Colombian
-                    and Italian culture who is finishing his studies in Computer Science.
-                    I hope you enjoy getting to know a little bit about me.</p>
-                <p class="card-text">In this website you can expect to know various aspects of my life, at least what I'm willing to share!!</p>
-                <a href="#form" class="btn btn-light">Contact me</a>
+            <div id="welcome" class="card text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Hi!</h2>
+                    <p class="card-text">
+                        Let me introduce myself: I'm Tobia Raffaele Gasparoni
+                        Berdugo, a mix between Colombian and Italian culture who
+                        is finishing his studies in Computer Science. I hope you
+                        enjoy getting to know a little bit about me.
+                    </p>
+                    <p class="card-text">
+                        In this website you can expect to know various aspects
+                        of my life, at least what I'm willing to share!!
+                    </p>
+                    <a href="#form" class="btn btn-light">Contact me</a>
+                </div>
             </div>
-        </div>
-        <section id="facts" class="container-fluid row">
-            <h2>Facts About Me</h2>
-            <article id="bio" class="col-sm">
-                <h4>Biograhpical</h4>
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <td>Category</td>
-                            <td>Fact</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Born</td>
-                            <td>Barranquilla, Colombia - May 6th, 1999</td>
-                        </tr>
-                        <tr>
-                            <td>Ethnicity</td>
-                            <td>Latin American: 50% - European: 50%</td>
-                        </tr>
-                        <tr>
-                            <td>Blood type</td>
-                            <td>AB+</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
-            <article id="academics" class="col-sm">
-                <h4>Academic</h4>
+            <section id="facts" class="container-fluid row">
+                <h2>Facts About Me</h2>
+                <article id="bio" class="col-sm">
+                    <h4>Biograhpical</h4>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <td>Category</td>
+                                <td>Fact</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Born</td>
+                                <td>Barranquilla, Colombia - May 6th, 1999</td>
+                            </tr>
+                            <tr>
+                                <td>Ethnicity</td>
+                                <td>Latin American: 50% - European: 50%</td>
+                            </tr>
+                            <tr>
+                                <td>Blood type</td>
+                                <td>AB+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article id="academics" class="col-sm">
+                    <h4>Academic</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <strong>Education</strong> Computer Science -
+                            Universidad de los Andes
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Study Period (until graduation)</strong>
+                            2017-2022
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Thesis Topic</strong> Translation of
+                            optimization models
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="interests">
+                <h2>Interests</h2>
+                <article>
+                    <h3>
+                        In this section you'll find my mayor interests outside
+                        the academy
+                    </h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>
+                                <a
+                                    href="https://www.youtube.com/user/samandniko"
+                                    ><strong>Corridor Crew</strong></a
+                                >
+                                is a channel dedicated to experimenting with
+                                visual effects.
+                            </p>
+                            <p>
+                                Video production and photography is my passion.
+                            </p>
+                            <a href="https://www.youtube.com/user/samandniko">
+                                <img
+                                    class="interest-img"
+                                    src="img/corridor_crew.jpg"
+                                    alt="Corridor Crew"
+                                />
+                            </a>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <p>Last video I've seen from them.</p>
+                                    <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/F3L4MQfjobA"
+                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                                <div class="col-sm">
+                                    <p>
+                                        I participated in a Challenge to win a
+                                        Scholarship, but lost :(
+                                    </p>
+                                    <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/8YDT_TbKZng"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <p>
+                                <a
+                                    href="https://www.youtube.com/user/LinusTechTips"
+                                    ><strong>LinusTechTips</strong></a
+                                >
+                                is a channel dedicated to talking about high end
+                                PCs.
+                            </p>
+                            <a
+                                href="https://www.youtube.com/user/LinusTechTips"
+                            >
+                                <img
+                                    class="interest-img"
+                                    src="img/linus-sebastian.jpg"
+                                    alt="Linus Tech Tips"
+                                />
+                            </a>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <p>Last video I've seen from them.</p>
+                                    <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/DXo2m_XlH4s"
+                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                                <div class="col-sm">
+                                    <p>
+                                        My first and only (for now) enthusiast
+                                        desktop PC.
+                                    </p>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <td>Category</td>
+                                                <td>Component</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>CPU</td>
+                                                <td>
+                                                    Intel Core i7-3770
+                                                    3.4GHz-3.9GHz with
+                                                    Turboboost
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>GPU</td>
+                                                <td>
+                                                    EVGA GTX 760 2GB
+                                                    Superclocked
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>RAM</td>
+                                                <td>8GB</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ROM</td>
+                                                <td>
+                                                    <p>
+                                                        SSD (OS): Samsung 512GB
+                                                    </p>
+                                                    <p>HDD: 1TB</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Optical Drive</td>
+                                                <td>DVD R/WR</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Screen</td>
+                                                <td>1600x900 60HZ</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+                <article class="container">
+                    <h3>
+                        In this section, you'll find my interests related to my
+                        academic studies
+                    </h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p>
+                                <a href="https://medium.com/"
+                                    ><strong>Medium</strong></a
+                                >
+                                is a website that publishes content regarding
+                                Computer Science.
+                            </p>
+                            <a href="https://medium.com/">
+                                <img
+                                    class="interest-img"
+                                    src="img/medium.png"
+                                    alt="Medium"
+                                />
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <p>
+                                <a href="https://www.freecodecamp.org/"
+                                    ><strong>FreeCodeCamp</strong></a
+                                >
+                                is a website that offers programming courses.
+                            </p>
+                            <a href="https://www.freecodecamp.org/">
+                                <img
+                                    class="interest-img"
+                                    src="img/freecodecamp.jpeg"
+                                    alt="FreeCodeCamp"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <article class="container">
+                    <h3>
+                        Here, you can find a couple of passion projects related
+                        to coding.
+                    </h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p>
+                                I implemented a
+                                <a
+                                    href="https://github.com/tobiaGasparoni/DataStructuresJava"
+                                    ><strong>2-3 Tree</strong></a
+                                >
+                                for my data structures class.
+                            </p>
+                            <a
+                                href="https://github.com/tobiaGasparoni/DataStructuresJava"
+                            >
+                                <img
+                                    class="interest-img"
+                                    src="img/2-3-tree.png"
+                                    alt="2-3-tree"
+                                />
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <p>
+                                <a
+                                    href="https://github.com/tobiaGasparoni/SchedulerJava"
+                                    ><strong>Scheduler</strong></a
+                                >
+                                implemented in Java (without using optimization
+                                mathematical models.
+                            </p>
+                            <a
+                                href="https://github.com/tobiaGasparoni/SchedulerJava"
+                            >
+                                <img
+                                    class="interest-img"
+                                    src="img/scheduler.png"
+                                    alt="Scheduler"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="form">
+                <h2>Contact me</h2>
+                <p>
+                    In the following form, you can fill out your data to reach
+                    out to me
+                </p>
+                <form action="/action_page.php" class="row">
+                    <div id="basic-info" class="col-sm">
+                        <label for="fname" class="form-label">Name</label><br />
+                        <input type="text" id="fname" name="fname" /><br />
+                        <label for="lname" class="form-label">Lastname</label
+                        ><br />
+                        <input type="text" id="lname" name="lname" /><br />
+                        <label for="lemail" class="form-label">Email</label
+                        ><br />
+                        <input type="text" id="lemail" name="lemail" /><br />
+                    </div>
+                    <div id="textarea-submit" class="col-sm">
+                        <label for="lmessage" class="form-label">Message</label
+                        ><br />
+                        <textarea id="lmessage" rows="10" cols="30"></textarea>
+                        <a href="#" class="btn btn-primary">Submit</a>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section id="contact">
+                <h2>Write directly to me</h2>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><strong>Education</strong> Computer Science - Universidad de los Andes</li>
-                    <li class="list-group-item"><strong>Study Period (until graduation)</strong> 2017-2022</li>
-                    <li class="list-group-item"><strong>Thesis Topic</strong> Translation of optimization models</li>
+                    <!-- David Manosalva: Se puede tener un ancla que direccione directamente al correo electronico. Esto se hace al añadir "mailto:..." a la referencia del ancla -->
+                    <li class="list-group-item">tobia.gasparoni@gmail.com</li>
                 </ul>
-            </article>
-        </section>
-        <section id="interests">
-            <h2>Interests</h2>
-            <article>
-                <h3>In this section you'll find my mayor interests outside the academy</h3>
+            </section>
+            <section id="social">
+                <h2>Social Media</h2>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <p><a href="https://www.youtube.com/user/samandniko"><strong>Corridor Crew</strong></a> is a channel dedicated to experimenting with visual effects.</p>
-                        <p>Video production and photography is my passion.</p>
-                        <a href="https://www.youtube.com/user/samandniko">
-                            <img class="interest-img" src="img/corridor_crew.jpg" alt="Corridor Crew">
-                        </a>
-                        <div class="row">
-                            <div class="col-sm">
-                                <p>Last video I've seen from them.</p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/F3L4MQfjobA" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-sm">
-                                <p>I participated in a Challenge to win a Scholarship, but lost :(</p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/8YDT_TbKZng" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
+                        <a href="https://www.instagram.com/tobiagasparoni/"
+                            ><strong>Instagram</strong></a
+                        >
                     </li>
                     <li class="list-group-item">
-                        <p><a href="https://www.youtube.com/user/LinusTechTips"><strong>LinusTechTips</strong></a> is a channel dedicated to talking about high end PCs.</p>
-                        <a href="https://www.youtube.com/user/LinusTechTips">
-                            <img class="interest-img" src="img/linus-sebastian.jpg" alt="Linus Tech Tips">
-                        </a>
-                        <div class="row">
-                            <div class="col-sm">
-                                <p>Last video I've seen from them.</p>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/DXo2m_XlH4s" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-sm">
-                                <p>My first and only (for now) enthusiast desktop PC.</p>
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                            <td>Category</td>
-                                            <td>Component</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>CPU</td>
-                                            <td>Intel Core i7-3770 3.4GHz-3.9GHz with Turboboost</td>
-                                        </tr>
-                                        <tr>
-                                            <td>GPU</td>
-                                            <td>EVGA GTX 760 2GB Superclocked</td>
-                                        </tr>
-                                        <tr>
-                                            <td>RAM</td>
-                                            <td>8GB</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ROM</td>
-                                            <td>
-                                                <p>SSD (OS): Samsung 512GB</p>
-                                                <p>HDD: 1TB</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Optical Drive</td>
-                                            <td>DVD R/WR</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Screen</td>
-                                            <td>1600x900 60HZ</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                        <a href="https://www.facebook.com/tobia.gasparoni"
+                            ><strong>Facebook</strong></a
+                        >
                     </li>
                 </ul>
-            </article>
-            <article class="container">
-                <h3>In this section, you'll find my interests related to my academic studies</h3>
-                <div class="row">
-                    <div class="col-sm">
-                        <p><a href="https://medium.com/"><strong>Medium</strong></a> is a website that publishes content regarding Computer Science.</p>
-                        <a href="https://medium.com/">
-                            <img class="interest-img" src="img/medium.png" alt="Medium">
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <p><a href="https://www.freecodecamp.org/"><strong>FreeCodeCamp</strong></a> is a website that offers programming courses.</p>
-                        <a href="https://www.freecodecamp.org/">
-                            <img class="interest-img" src="img/freecodecamp.jpeg" alt="FreeCodeCamp">
-                        </a>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <article class="container">
-                <h3>Here, you can find a couple of passion projects related to coding.</h3>
-                <div class="row">
-                    <div class="col-sm">
-                        <p>I implemented a <a href="https://github.com/tobiaGasparoni/DataStructuresJava"><strong>2-3 Tree</strong></a> for my data structures class.</p>
-                        <a href="https://github.com/tobiaGasparoni/DataStructuresJava">
-                            <img class="interest-img" src="img/2-3-tree.png" alt="2-3-tree">
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <p><a href="https://github.com/tobiaGasparoni/SchedulerJava"><strong>Scheduler</strong></a> implemented in Java (without using optimization mathematical models.</p>
-                        <a href="https://github.com/tobiaGasparoni/SchedulerJava">
-                            <img class="interest-img" src="img/scheduler.png" alt="Scheduler">
-                        </a>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section id="form">
-            <h2>Contact me</h2>
-            <p>In the following form, you can fill out your data to reach out to me</p>
-            <form action="/action_page.php" class="row">
-                <div id="basic-info" class="col-sm">
-                    <label for="fname" class="form-label">Name</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname" class="form-label">Lastname</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="lemail" class="form-label">Email</label><br>
-                    <input type="text" id="lemail" name="lemail"><br>
-                </div>
-                <div id="textarea-submit" class="col-sm">
-                    <label for="lmessage" class="form-label">Message</label><br>
-                    <textarea id="lmessage" rows="10" cols="30"></textarea>
-                    <a href="#" class="btn btn-primary">Submit</a>
-                </div>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <section id="contact">
-            <h2>Write directly to me</h2>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">tobia.gasparoni@gmail.com</li>
-            </ul>
-        </section>
-        <section id="social">
-            <h2>Social Media</h2>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="https://www.instagram.com/tobiagasparoni/"><strong>Instagram</strong></a></li>
-                <li class="list-group-item"><a href="https://www.facebook.com/tobia.gasparoni"><strong>Facebook</strong></a></li>
-            </ul>
-        </section>
-    </footer>
-</body>
+            </section>
+        </footer>
+    </body>
 </html>
