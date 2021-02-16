@@ -5,7 +5,7 @@
 - Ortografía: Se escribe _Projects_ y no _Proyects_, _Biographical_ y no _Biograhpical_, _major_ y no _mayor_.
 - Las secciones lógicas son claramente distinguibles en la página pero no en el código, no se utilizan comentarios para distinguirlas. El uso de HTML semántico es correcto.
 - Las imágenes están organizadas en una carpeta designada.
-- La estética es simple pero consistente, aunque la fuente utilizada para los títulos de las secciones no coincide ni combina con los subtítulos
+- La estética es simple pero consistente, muy buena paleta.
 - Las clases creadas son consistentes, buenas practicas en CSS incluyendo la indentación.
 - _Navegacion:_ Todos los links funcionan correctamente en la barra de navegacion
 - _Responsive:_
