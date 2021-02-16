@@ -6,97 +6,98 @@ Blue: #011F43
 */
 
 body {
-    color: #011F43;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #FFDC9A
+  color: #011f43;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background-color: #ffdc9a;
 }
 
 li {
-    background-color: #FFDC9A;
-    color: #011F43
+  background-color: #ffdc9a;
+  color: #011f43;
 }
 
 section {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 header {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .table {
-    border-color: rgba(0,0,0,.125)
+  border-color: rgba(0, 0, 0, 0.125);
 }
 
 .list-group-item {
-    background-color: #FFDC9A;
-    border-top: 1px solid #011F43;
-    border-left-color: #fff;
-    border-right-color: #fff;
+  background-color: #ffdc9a;
+  border-top: 1px solid #011f43;
+  border-left-color: #fff;
+  border-right-color: #fff;
 }
 
 #profile-pic {
-    width: 300px;
+  width: 300px;
 }
 
 nav {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #011F43
+  text-decoration: none;
+  color: #011f43;
 }
 
 nav a:hover {
-    text-decoration: none;
-    color: #011F43
+  text-decoration: none;
+  color: #011f43;
 }
 
 #quote {
-    margin: 25px 0 10px 0;
-    background-color: #48866D;
-    color: white
+  margin: 25px 0 10px 0;
+  background-color: #48866d;
+  color: white;
 }
 
 #quote footer {
-    color: white;
+  color: white;
 }
 
 #welcome {
-    margin-bottom: 50px;
-    background-color: #48866D;
-    color: white
+  margin-bottom: 50px;
+  background-color: #48866d;
+  color: white;
 }
 
 .interest-img {
-    width: 70%;
-    margin-bottom: 30px;
+  width: 70%;
+  margin-bottom: 30px;
 }
 
 iframe {
-    width: 100%
+  width: 100%;
 }
 
-#form input, textarea {
-    width: 80%
+#form input,
+textarea {
+  width: 80%;
 }
 
-#basic-info input{
-    margin-bottom: 20px;
+#basic-info input {
+  margin-bottom: 20px;
 }
 
 #textarea-submit {
-    display: inline-block;
+  display: inline-block;
 }
 
 #textarea-submit * {
-    display: inherit;
-    margin: 0 auto;
+  display: inherit;
+  margin: 0 auto;
 }
 
 #textarea-submit a {
-    width: 50%;
-    margin-top: 25px;
+  width: 50%;
+  margin-top: 25px;
 }
